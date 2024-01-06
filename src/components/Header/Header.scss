@@ -1,0 +1,21 @@
+header {
+  // width: 300px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  // margin: 20px;
+  align-items: center;
+  color: black;
+  gap: 10px;
+}
+
+.sort {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.active {
+  background-color: #888;
+}

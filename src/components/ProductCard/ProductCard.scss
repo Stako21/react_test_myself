@@ -1,0 +1,27 @@
+.ProductCard {
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 3px solid rgb(97, 103, 97);
+  border-radius: 10px;
+
+  &--free {
+    background-color: rgb(142, 231, 142);
+  }
+
+  &--expensive {
+    background-color: rgb(215, 244, 158);
+  }
+
+  &--chip {
+    background-color: rgb(241, 192, 192);
+  }
+
+  &__title {
+    margin: 0 0 .5em;
+    text-decoration: underline;
+  }
+}
+
+.ProductCard:last-child {
+  margin-bottom: 0;
+}
